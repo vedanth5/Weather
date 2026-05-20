@@ -28,9 +28,22 @@ To clone this repository to your local machine, follow these steps:
 
 ## How to Use
 
-1. After cloning the repository, open the `index.html` file in your web browser
-2. Enter any city name in the search box
-3. Click the search button to see the current weather information
+1. Create an OpenWeatherMap API key:
+   - Sign up or log in at [OpenWeatherMap](https://openweathermap.org/api)
+   - Generate an API key from your account dashboard
+   - Note that a newly created key may take a little time to become active
+
+2. Configure the API key locally:
+   - Open `index.html`
+   - Find the `apiKey` value used for OpenWeatherMap requests
+   - Replace it with your own API key on your local machine
+   - Do **not** commit your real API key to the repository
+
+3. Open the `index.html` file in your web browser
+4. Enter any city name in the search box
+5. Click the search button to see the current weather information
+
+If the weather data does not load, double-check that your API key was copied correctly, has become active, and is valid. A missing or invalid API key will prevent requests to OpenWeatherMap from succeeding.
 
 ## Features
 
